@@ -53,5 +53,11 @@
      
      _lihat code_
      
-     
-       
+**2. Static Files**
+- 
+   - Buat dir dan sub dir baru di _ecommercePy(root)_ bernama static. didalamnya ada subdir _css_ dan _images_ 
+   - masuk ke ecommercePy>settings.py, tambahkan:
+   
+     `STATICFILES_DIRS = [`
+        `os.path.join(BASE_DIR, 'static')`
+       `]`
